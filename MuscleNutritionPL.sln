@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuscleNutrition", "MuscleNutrition\MuscleNutrition.csproj", "{737700C1-DE8D-4B1F-AE02-BFFB7A95FFBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuscleNutrition_BusinessLayer", "MuscleNutrition_BusinessLayer\MuscleNutrition_BusinessLayer.csproj", "{8F147903-8F54-47AE-B38F-E0A1B556042C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuscleNutrition_EntitiyLayer", "MuscleNutrition_EntitiyLayer\MuscleNutrition_EntitiyLayer.csproj", "{90AB8699-02DC-4DF9-BE56-C705C8C1505B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuscleNutrition_DataAccesLayer", "MuscleNutrition_DataAccesLayer\MuscleNutrition_DataAccesLayer.csproj", "{3650B9D8-72EA-4E70-8559-D4A009AE50BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{737700C1-DE8D-4B1F-AE02-BFFB7A95FFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737700C1-DE8D-4B1F-AE02-BFFB7A95FFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737700C1-DE8D-4B1F-AE02-BFFB7A95FFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737700C1-DE8D-4B1F-AE02-BFFB7A95FFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F147903-8F54-47AE-B38F-E0A1B556042C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F147903-8F54-47AE-B38F-E0A1B556042C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F147903-8F54-47AE-B38F-E0A1B556042C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F147903-8F54-47AE-B38F-E0A1B556042C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AB8699-02DC-4DF9-BE56-C705C8C1505B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AB8699-02DC-4DF9-BE56-C705C8C1505B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AB8699-02DC-4DF9-BE56-C705C8C1505B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AB8699-02DC-4DF9-BE56-C705C8C1505B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3650B9D8-72EA-4E70-8559-D4A009AE50BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3650B9D8-72EA-4E70-8559-D4A009AE50BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3650B9D8-72EA-4E70-8559-D4A009AE50BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3650B9D8-72EA-4E70-8559-D4A009AE50BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BE5B69D-71E8-4D26-89D9-D084101FC3EF}
+	EndGlobalSection
+EndGlobal

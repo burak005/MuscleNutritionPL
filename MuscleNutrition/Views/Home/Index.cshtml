@@ -1,0 +1,205 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Karma", sans-serif
+        }
+
+        .w3-bar-block .w3-bar-item {
+            padding: 20px
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar scroll</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Link
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Link</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <div class="w3-quarter">
+                <img src="/lib/images/Whey Protein.jpeg" alt="Sandwich" style="width:100%" 
+                >
+                <h3> <b>WHEY PROTEIN </b></h3>
+                <p>Çikolata aromalı kas onarımını destekleyen protein tozu</p>
+                <h4> <b>999TL </b></h4>
+            </div>
+            <div class="w3-quarter">
+                <img src="/lib/images/Mass Gainer.jpeg" alt="Cherries" style="width:100%">
+                <h3><b> MASS GAİNER</b></h3>
+                <p>Yüksek kalorili pratik öğün</p>
+                <h4> <b>439TL </b></h4>
+            </div>
+            <div class="w3-quarter">
+                <img src="/lib/images/HIQ-CREATINE.jpeg" alt="Steak" style="width:100%">
+                <h3><b>CREATINE MONOHYDRATE</b></h3>
+                <p>Popüler sporcu takviyesi</p>
+                <h4> <b>399TL </b></h4>
+
+            </div>
+            <div class="w3-quarter">
+                <img src="/lib/images/Bcaa.jpg" alt="Pasta and Wine" style="width:100%">
+                <h3><b>BCAA</b></h3>
+                <p>Temel Aminoasit Kaynağı</p>
+                <h4> <b>319TL </b></h4>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <img src="/lib/images/Vitargo.jpg" alt="Popsicle" style="width:90%">
+                <h3><b>VİTARGO ELECTROLYTE</b></h3>
+                <p>Doğal Karbonhidrat Tozu</p>
+                <h4> <b>750TL </b></h4>
+            </div>
+           
+                <div class="w3-quarter">
+                    <img src="/lib/images/l-carnitine.jpeg" alt="Popsicle" style="width:90%">
+                    <h3><b>L_CARNITINE</b></h3>
+                    <p>Toz Formu Sayesinde Kolay Tüketim</p>
+                <h4> <b>350TL </b></h4>
+                </div>
+            <div class="w3-quarter">
+                <img src="/lib/images/Pre-Workout.jpeg" alt="Sandwich" style="width:100%">
+                <h3><b>PRE-WORKOUT SUPREME</b></h3>
+                <p>Antreman Öncesi Takviyesi</p>
+                <h4> <b>300TL </b></h4>
+            </div>
+            <div class="w3-quarter">
+                <img src="/lib/images/Kolajen.jpeg" alt="Croissant" style="width:100%">
+                <h3><b>KOLAJEN</b></h3>
+                <p>Zengin vitamin kaynağıyla Cilt,Deri Ve Eklem Sağlığı </p>
+                <h4> <b>249TL </b></h4>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+
+        <hr id="about">
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32 w3-center">
+            <h3 ><b></b></h3><br>
+            <img src="/lib/images/muscles-wallpaper-1920x1080.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+            <div class="w3-padding-32" >
+                <h6><i><p class="fw-light">Dünyayı değiştiremiyorsan,kendini değiştir..</p></i></h6>
+                <h4><b>Biz Kimiz?</b></h4>
+                <p>MuscleNutrition olarak sizlere en kaliteli ve sağlıklı sporcu ürünlerini sizlere ulaştırmayı planlıyoruz..</p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Footer -->
+        <footer class="w3-row-padding w3-padding-32">
+            <div class="w3-third">
+                <h3><b>HAKKIMIZDA</b></h3>
+               <p> Ürünler sağlıklı ve dengeli bir beslenme düzenin yerine geçmez. Amacımız tüketiciye en doğru bilgiyi sunabilmek olup, yer verilen içerik sadece bilgilendirme amaçlıdır, ürünlerin kullanımına yönelik hiçbir taahhüt veya tavsiye yerine geçmez.</p> 
+                <p>Tüm ürünlerimiz %100 orjinal olup, T.C. Tarım ve Orman Bakanlığı onaylıdır.</p>
+               <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+            </div>
+
+            <div class="w3-third">
+                <h3><b>KAS KAZANIMI</b></h3>
+                <ul class="w3-ul w3-hoverable">
+                    <li class="w3-padding-16">
+                        <img src="/lib/images/Whey Protein.jpeg" class="w3-left w3-margin-right" style="width:50px">
+                        <span class="w3-large">Whey Protein</span><br>
+                        <span>Kas onarımı sağlayan aminoasit.</span>
+                    </li>
+                    <li class="w3-padding-16">
+                        <img src="/lib/images/HIQ-CREATINE.jpeg" class="w3-left w3-margin-right" style="width:50px">
+                        <span class="w3-large">Creatine</span><br>
+                        <span>Kasta su tutar,güç sağlar.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-third w3-serif">
+                <h3><b>POPÜLER ÜRÜNLER</b></h3>
+                <p>
+                    <span class="w3-tag w3-dark-grey w3-margin-bottom">Whey Protein</span> 
+                    <span class="w3-tag w3-dark-grey w3-margin-bottom">Creatine</span> 
+                    <span class="w3-tag w3-dark-grey w3-margin-bottom">Bcaa+</span>
+                    <span class="w3-tag w3-dark-grey w3-margin-bottom">Collagen</span>
+                    <span class="w3-tag w3-dark-grey w3-margin-bottom">L-Carnitine</span> 
+                    <span class="w3-tag w3-dark-grey w3-margin-bottom">ZMA</span>
+                    <span class="w3-tag w3-dark-grey w3-margin-bottom">Günlük Vitamin Paketi</span>
+                </p>
+            </div>
+        </footer>
+
+        <!-- End page content -->
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
